@@ -1,0 +1,119 @@
+# Ignore build output and intermediate files
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Auto-generated files by Visual Studio
+.vscode/
+.vs/
+*.vsconfig
+
+# ASP.NET Core environment and logs
+appsettings.*.json
+appsettings.Development.json
+*.log
+logs/
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Rider and JetBrains IDEs
+.idea/
+*.sln.iml
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Dotnet-specific
+project.lock.json
+global.json
+
+# Windows file system files
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS file system files
+.DS_Store
+
+# Linux file system files
+.Trash-*
+
+# Test and publish-related files
+TestResults/
+*.coverage
+coverage/
+coverage.opencover.xml
+*.publishsettings
+*.deployprops
+
+# Entity Framework migrations
+Migrations/
+
+# Secrets and sensitive configuration
+secrets.json
+*.key
+.env
+.env.*
+
+# IDE temp files
+*.pidb
+*.csproj.user
+*.cache
+
+# Static site files and artifacts
+wwwroot/
+dist/
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+*.swp
+
+# Yarn and npm
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Backup files
+*.bak
+*.old
+*.orig
+*.swp
+*.swm
+
+# Lock files
+*.lock.json
+
+# Visual Studio Code settings and history
+.history/
+.code-workspace
+
+# Build output directories for Docker/CI
+artifacts/
+build/
+publish/
+
+# Others
+.idea/
+*.iml
+*.tlog
+*.ilk
+*.idb
+*.pdb
+*.rsp
