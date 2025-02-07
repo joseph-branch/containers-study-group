@@ -5,6 +5,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 
 # Set the working directory inside the container to /app.
 # This will be the context where the build operations occur.
+# This command also creates the directory if it doesn't exist and changes the current working directory to it.
 WORKDIR /app
 
 # **Copy Project Files and Restore Dependencies**
